@@ -348,6 +348,11 @@ nav a:visited {
     font-size: 16px;
   }
 
+  section.about img {
+    max-width: 100%;
+    height: auto;
+  }
+
   footer {
     text-align: left;
   }
