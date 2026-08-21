@@ -192,7 +192,7 @@ section.about,
 section.about-wns,
 section.about-partner {
   color: hsl(0, 0%, 0%);
-  background-color: hsl(162, 33%, 90%);
+  background-color: hsl(0, 0%, 100%);
 }
 
 section.about-partner {
@@ -245,11 +245,14 @@ a.jump-to-top {
   border-radius: 8px;
   color: hsl(0, 0%, 0%);
   display: block;
-  letter-spacing: 0.5px;
+  font-family: "Tourney", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 2px;
   margin: 0 auto 20px auto;
   padding: 15px 10px;
   text-align: center;
-  width: 150px;
+  width: 170px;
 }
 
 a.jump-to-top:hover {
