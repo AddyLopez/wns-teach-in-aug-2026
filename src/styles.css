@@ -244,6 +244,7 @@ a.jump-to-top {
   background-color: hsl(0, 0%, 100%);
   border: 3px solid hsl(0, 0%, 0%);
   border-radius: 8px;
+  box-shadow: 3px 3px hsl(0, 0%, 0%);
   color: hsl(0, 0%, 0%);
   display: block;
   font-family: "Tourney", sans-serif;
