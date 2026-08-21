@@ -88,7 +88,8 @@ div.hero-style {
   text-decoration: none;
 }
 
-.hero a:active {
+.hero a:active,
+a.jump-to-top:active {
   transform: translate(1px, 1px);
 }
 
