@@ -76,7 +76,7 @@ div.hero-style {
   letter-spacing: 2px;
   margin: 0 10px;
   padding: 20px 20px;
-  text-transform: uppercase;
+  text-decoration: none;
   width: 240px;
 }
 
@@ -254,6 +254,7 @@ a.jump-to-top {
   margin: 0 auto 20px auto;
   padding: 15px 10px;
   text-align: center;
+  text-decoration: none;
   width: 240px;
 }
 
@@ -289,10 +290,6 @@ footer a {
 a {
   color: hsl(356, 75%, 40%);
   font-weight: 600;
-  text-decoration: none;
-}
-
-a:hover {
   text-decoration: underline;
 }
 
