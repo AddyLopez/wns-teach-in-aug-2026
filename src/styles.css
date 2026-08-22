@@ -29,7 +29,7 @@ h2 {
 div.hero {
   background-image:
     linear-gradient(hsla(0, 0%, 0%, 0.7), hsla(0, 0%, 0%, 0.7)),
-    url("../assets/images/hero-above-the-fruited-plain.png");
+    url("/assets/images/png/hero-above-the-fruited-plain.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -39,18 +39,36 @@ div.hero {
   text-align: center;
 }
 
+@supports (
+  background-image: image-set(
+      url("/assets/images/png/hero-above-the-fruited-plain.png")
+        type("image/png")
+    )
+) {
+  div.hero {
+    background-image:
+      linear-gradient(hsla(0, 0%, 0%, 0.7), hsla(0, 0%, 0%, 0.7)),
+      image-set(
+        url("../assets/images/avif/hero-above-the-fruited-plain.avif")
+          type("image/avif"),
+        url("../assets/images/png/hero-above-the-fruited-plain.png")
+          type("image/png")
+      );
+  }
+}
+
 div.hero-style {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 35px;
 }
 
 .hero p {
+  color: hsl(0, 0%, 100%);
   font-family: "Times New Roman", Times, serif;
   font-size: 16px;
   font-weight: 500;
-  color: hsl(0, 0%, 100%);
   letter-spacing: 1px;
   margin: 0;
   padding: 0;
@@ -120,19 +138,6 @@ h3 {
   font-size: 28px;
 }
 
-nav {
-  background-color: hsl(356, 75%, 40%);
-  padding: 30px;
-}
-
-nav ul {
-  display: flex;
-  justify-content: space-evenly;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
 main.home ul {
   padding-inline-start: 20px;
 }
@@ -140,8 +145,8 @@ main.home ul {
 main.home li {
   font-size: 18px;
   font-weight: 600;
-  padding: 5px 0;
   overflow-wrap: break-word;
+  padding: 5px 0;
 }
 
 main.home section {
@@ -154,8 +159,8 @@ main.home section.about-wns {
 }
 
 section.about img {
-  max-width: 400px;
   height: auto;
+  max-width: 400px;
 }
 
 section.about h2 {
@@ -163,8 +168,8 @@ section.about h2 {
 }
 
 section.about h3 {
-  margin-top: 2em;
   margin-bottom: 0.5em;
+  margin-top: 2em;
 }
 
 section.about p {
@@ -179,10 +184,10 @@ section.about ul {
 }
 
 section.about li {
-  padding: 5px 0;
-  overflow-wrap: break-word;
   font-size: 17px;
   line-height: 1.5;
+  overflow-wrap: break-word;
+  padding: 5px 0;
 }
 
 section.about a {
@@ -202,10 +207,10 @@ section.about-partner {
 
 div.image-grid {
   display: grid;
-  justify-content: center;
+  gap: 30px;
   grid-template-columns: 1fr 1fr 2fr;
   grid-template-rows: 1fr;
-  gap: 30px;
+  justify-content: center;
   padding: 20px 10px;
 }
 
@@ -217,12 +222,12 @@ div.image-grid img {
 img {
   border: 1px solid hsl(0, 0%, 66%);
   border-radius: 20px;
-  max-width: 100%;
   height: 100%;
+  max-width: 100%;
 }
 
-figure {
-  margin: 0 auto;
+section.about picture {
+  display: block;
   text-align: center;
 }
 
@@ -271,8 +276,8 @@ footer {
   background-color: hsl(0, 0%, 0%);
   color: hsl(0, 0%, 100%);
   display: grid;
-  grid-template-columns: 1fr 1fr;
   font-size: 11px;
+  grid-template-columns: 1fr 1fr;
   justify-content: space-evenly;
   padding: 10px 20px;
   text-align: center;
@@ -293,25 +298,7 @@ a {
   text-decoration: underline;
 }
 
-nav a {
-  color: hsl(0, 0%, 100%);
-  font-size: 24px;
-  font-weight: 700;
-}
-
-nav a:hover {
-  text-decoration: none;
-}
-
-nav a:visited {
-  color: hsl(0, 0%, 100%);
-}
-
 @media only screen and (max-width: 768px) {
-  nav {
-    padding: 30px 5px;
-    margin: 0 auto;
-  }
   div.hero {
     padding: 110px 0;
   }
@@ -329,10 +316,6 @@ nav a:visited {
 
 /* small screens (phones) */
 @media only screen and (max-width: 576px) {
-  nav a {
-    font-size: 22px;
-  }
-
   h1 {
     font-size: 36px;
   }

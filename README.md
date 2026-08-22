@@ -1,6 +1,6 @@
 # WNS Teach-In (Aug. 2026)
 
-**_View this project:_** []()
+**_View this project:_** [https://wns-teachin-nm-and-the-war-economy.netlify.app/](https://wns-teachin-nm-and-the-war-economy.netlify.app/)
 
 ## Description
 

@@ -17,7 +17,13 @@
     <link
       rel="preload"
       as="image"
-      href="/assets/images/hero-above-the-fruited-plain.png"
+      href="/assets/images/avif/hero-above-the-fruited-plain.avif"
+      fetchpriority="high"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="/assets/images/png/hero-above-the-fruited-plain.png"
       fetchpriority="high"
     />
     <title>New Mexico and the War Economy Teach-In</title>
@@ -60,19 +66,37 @@
           future.
         </p>
         <div class="image-grid">
-          <img
-            src="/assets/images/grid-img-map.png"
-            alt="A hand-drawn map of New Mexico with landmarks related to the war industry"
-          />
-          <img
-            src="/assets/images/grid-img-river.png"
-            alt="A cartoon of a river with cranes, ducks, corn, and cottonwood trees"
-          />
-          <img
-            src="/assets/images/grid-img-railrunner.png"
-            class="railrunner"
-            alt="A cartoon of the Railrunner commuter train, a stylized sun, and two solar panels"
-          />
+          <picture>
+            <source
+              srcset="/assets/images/avif/grid-img-map.avif"
+              type="image/avif"
+            />
+            <img
+              src="/assets/images/png/grid-img-map.png"
+              alt="A hand-drawn map of New Mexico with landmarks related to the war industry"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="/assets/images/avif/grid-img-river.avif"
+              type="image/avif"
+            />
+            <img
+              src="/assets/images/png/grid-img-river.png"
+              alt="A cartoon of a river with cranes, ducks, corn, and cottonwood trees"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="/assets/images/avif/grid-img-railrunner.avif"
+              type="image/avif"
+            />
+            <img
+              src="/assets/images/png/grid-img-railrunner.png"
+              class="railrunner"
+              alt="A cartoon of the Railrunner commuter train, a stylized sun, and two solar panels"
+            />
+          </picture>
         </div>
       </section>
       <h2 class="home-h2">Teach-In Resources</h2>
@@ -194,12 +218,16 @@
       <h2 class="home-h2">GET INVOLVED</h2>
       <section class="about">
         <section class="about-wns">
-          <figure>
+          <picture>
+            <source
+              srcset="/assets/images/avif/logo-WNS.avif"
+              type="image/avif"
+            />
             <img
-              src="assets/images/logo-WNS.png"
+              src="assets/images/png/logo-WNS.png"
               alt="A hand-drawn logo of a truck hauling green chiles"
             />
-          </figure>
+          </picture>
           <article>
             <h3>About Workers for a New Southwest &#40;WNS&#41;</h3>
             <p>
@@ -267,12 +295,16 @@
           </article>
         </section>
         <section class="about-partner">
-          <figure>
+          <picture>
+            <source
+              srcset="/assets/images/avif/abq-friends-meeting-house.avif"
+              type="image/avif"
+            />
             <img
-              src="assets/images/abq-friends-meeting-house.png"
+              src="assets/images/png/abq-friends-meeting-house.png"
               alt="A painted adobe church sanctuary with green foliage"
             />
-          </figure>
+          </picture>
           <article>
             <h3>About Albuquerque Friends &#40;Quakers&#41;</h3>
             <p>
