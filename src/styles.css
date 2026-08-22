@@ -214,6 +214,10 @@ div.image-grid {
   padding: 20px 10px;
 }
 
+div.image-grid picture {
+  margin: 0 auto;
+}
+
 div.image-grid img {
   border: 6px solid hsl(0, 0%, 0%);
   max-height: 300px;
