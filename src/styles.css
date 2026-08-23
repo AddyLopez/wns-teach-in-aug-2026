@@ -47,7 +47,7 @@ div.hero {
 ) {
   div.hero {
     background-image:
-      linear-gradient(hsla(0, 0%, 0%, 0.7), hsla(0, 0%, 0%, 0.7)),
+      linear-gradient(hsla(0, 0%, 0%, 0.6), hsla(0, 0%, 0%, 0.6)),
       image-set(
         url("../assets/images/avif/hero-above-the-fruited-plain.avif")
           type("image/avif"),
