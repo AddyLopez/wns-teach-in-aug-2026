@@ -28,7 +28,7 @@ h2 {
 
 div.hero {
   background-image:
-    linear-gradient(hsla(0, 0%, 0%, 0.7), hsla(0, 0%, 0%, 0.7)),
+    linear-gradient(hsla(0, 0%, 0%, 0.6), hsla(0, 0%, 0%, 0.6)),
     url("/assets/images/png/hero-above-the-fruited-plain.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -240,7 +240,6 @@ section.about-wns {
 }
 
 p.attribution {
-  font-style: italic;
   margin: 0;
   text-align: right;
 }
