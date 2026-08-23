@@ -8,7 +8,7 @@ A fully responsive website across small, medium, and large screen sizes. It prov
 
 **_Accessibility rating_** by Lighthouse audit: 100/100 for desktops and 100/100 for mobile devices.
 
-**_Disclaimer:_** All assets in the directory by that name belong to Workers for a New Southwest, with the exception of the image represented by "abq-friends-meeting-house.png" which belongs to Albuquerque Friends. If you reuse my code, please do not reproduce any images or the pdf in the assets directory. Thanks!
+**_Disclaimer:_** All assets in the directory by that name belong to Workers for a New Southwest, with the exception of the image represented by "abq-friends-meeting-house.png" which belongs to Albuquerque Friends. If you reuse my code, please do not reproduce any images, favicons, or the pdf in the assets directory. Thanks!
 
 ## License
 
