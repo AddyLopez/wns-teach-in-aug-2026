@@ -173,8 +173,8 @@ section.about h3 {
 }
 
 section.about p {
-  font-size: 19px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 600;
   line-height: 1.5;
   margin-bottom: 0.5em;
 }
@@ -184,7 +184,6 @@ section.about ul {
 }
 
 section.about li {
-  font-size: 17px;
   line-height: 1.5;
   overflow-wrap: break-word;
   padding: 5px 0;
@@ -279,7 +278,7 @@ footer {
   background-color: hsl(0, 0%, 0%);
   color: hsl(0, 0%, 100%);
   display: grid;
-  font-size: 11px;
+  font-size: 12px;
   grid-template-columns: 1fr 1fr;
   justify-content: space-evenly;
   padding: 10px 20px;
